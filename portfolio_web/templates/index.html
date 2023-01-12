@@ -1,0 +1,53 @@
+
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Home -->
+<div class="home">
+    <div class="apresentation-container">
+        <div class="apresentation">
+            <h1 class="typing">Olá, Eu sou o Alexandre Cruz!<h1>
+            <h3 style="color:gray">Desenvolvedor Full-Stack</h3>
+        </div>
+    
+        <div class="button-container">
+            <button>Download CV</button>
+            <button>Entrar em contato!</button>
+        </div>
+    </div>
+
+
+    <div class="bg-img responsive">
+
+    </div>
+
+</div>
+<hr>
+
+<div>
+    <h1>Projetos</h1>
+    <div class="projeto-container">
+
+        <div class="projeto-miniatura-img">
+            <img src="{% static 'portfolio_web/img/miniaturaprojeto.png'%}" alt="" class="src">
+            
+            <div class="projeto-miniatura-text">
+                <h2 class="titulo-projeto">E-commerce CS50</h2>
+            </div>
+        </div>
+
+        <div class="projeto-miniatura-img">
+            <img src="{% static 'portfolio_web/img/miniaturaprojeto.png'%}" alt="" class="src">
+            
+            <div class="projeto-miniatura-text">
+                <h2 class="titulo-projeto">E-commerce CS50</h2>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</div>
+{% endblock content %}
