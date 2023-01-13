@@ -12,8 +12,8 @@
         </div>
     
         <div class="button-container">
-            <button>Download CV</button>
-            <button>Entrar em contato!</button>
+            <button class="button">Download CV</button>
+            <button class="button2">Entrar em contato!</button>
         </div>
     </div>
 
@@ -25,29 +25,57 @@
 </div>
 <hr>
 
-<div>
-    <h1>Projetos</h1>
+<div class="projeto" id="projeto">
+  
+    <h2 class="center">PROJETOS</h2>
     <div class="projeto-container">
 
         <div class="projeto-miniatura-img">
             <img src="{% static 'portfolio_web/img/miniaturaprojeto.png'%}" alt="" class="src">
             
             <div class="projeto-miniatura-text">
-                <h2 class="titulo-projeto">E-commerce CS50</h2>
+                <h4 class="data-projeto">12 de janeiro de 2023</h4>
+                <button class="button_vermais">Ver mais</button>
             </div>
         </div>
 
-        <div class="projeto-miniatura-img">
-            <img src="{% static 'portfolio_web/img/miniaturaprojeto.png'%}" alt="" class="src">
-            
-            <div class="projeto-miniatura-text">
-                <h2 class="titulo-projeto">E-commerce CS50</h2>
-            </div>
-        </div>
+
 
 
 
     </div>
     
+</div>
+
+<hr>
+
+<div class="sobre" id="sobre">
+<h2 class="center">SOBRE</h2>
+<p class="sobre-p">Desenvolvedor Full-stack. Atualmente estou cursando Sistemas de Informação na Faculdade Cesgranrio e buscando certificações na area de desenvolvimento web. Tenho experiência em html, css, javascript, framework Django, python e estudando react. Apaixonado por novos desafios e desenvolvimento estou aberto a novos projetos</p>
+</div>
+
+<hr>
+<div class="habilidades" id="habilidades">
+    <h2 class="center">HABILIDADES</h2>
+    <div class="habilidade-container">
+    <div class="habilidade-card">
+        <h3>HTML</h3>
+    </div>
+    <div class="habilidade-card">
+        <h3>JAVASCRIPT</h3>
+    </div>
+    <div class="habilidade-card">
+        <h3>CSS</h3>
+    </div>
+    <div class="habilidade-card">
+        <h3>DJANGO FRAMEWORK</h3>
+    </div>
+    <div class="habilidade-card">
+        <h3>PYTHON</h3>
+    </div>
+    <div class="habilidade-card">
+        <h3>REACT</h3>
+    </div>
+</div>
 </div>
 {% endblock content %}
